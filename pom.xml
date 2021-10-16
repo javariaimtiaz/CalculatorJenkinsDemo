@@ -3,7 +3,6 @@
   <groupId>CalculatorJenkinsDemo</groupId>
   <artifactId>CalculatorJenkinsDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
   <name>CalculatorJenkinsDemo</name>
   <description>CalculatorJenkinsDemo</description>
   
@@ -24,7 +23,18 @@
 	</dependencies>
    
   
-  
+   <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
   
   
   
