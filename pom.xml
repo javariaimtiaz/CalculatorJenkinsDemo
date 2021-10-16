@@ -3,6 +3,7 @@
   <groupId>CalculatorJenkinsDemo</groupId>
   <artifactId>CalculatorJenkinsDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <name>CalculatorJenkinsDemo</name>
   <description>CalculatorJenkinsDemo</description>
   
@@ -13,8 +14,6 @@
      <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
   
-	
-  
  	<dependencies>
 	  <dependency>
 	  <groupId>junit</groupId>
@@ -24,7 +23,6 @@
 	  </dependency>
 	</dependencies>
    
-  
   
   
   
