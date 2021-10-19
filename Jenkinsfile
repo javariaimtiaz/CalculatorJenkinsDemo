@@ -11,7 +11,7 @@ pipeline {
             }
         }
 
-        stage ('Demo-Compile') {
+        stage ('Demo-Test') {
 
             steps {
                 withMaven(maven : 'maven_3_5_0') {
